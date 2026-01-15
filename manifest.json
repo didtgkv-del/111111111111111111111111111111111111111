@@ -1,0 +1,80 @@
+{
+  "name": "ONMS - Social Media Platform",
+  "short_name": "ONMS",
+  "description": "Modern social media platform for creative expression and community building",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0f172a",
+  "theme_color": "#3b82f6",
+  "orientation": "portrait-primary",
+  "scope": "/",
+  "lang": "en",
+  "dir": "ltr",
+  "categories": ["social", "networking", "communication"],
+  "icons": [
+    {
+      "src": "/icon/onms-icon-1024.png",
+      "sizes": "1024x1024",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icon/onms-icon-256.png",
+      "sizes": "256x256",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icon/onms-icon-128.png",
+      "sizes": "128x128",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon/onms-favicon-16.png",
+      "sizes": "16x16",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Create Post",
+      "short_name": "Post",
+      "description": "Create a new post",
+      "url": "/home?create=true",
+      "icons": [
+        {
+          "src": "/icon/onms-icon-128.png",
+          "sizes": "128x128"
+        }
+      ]
+    },
+    {
+      "name": "Messages",
+      "short_name": "Chat",
+      "description": "View messages",
+      "url": "/messages",
+      "icons": [
+        {
+          "src": "/icon/onms-icon-128.png",
+          "sizes": "128x128"
+        }
+      ]
+    },
+    {
+      "name": "Profile",
+      "short_name": "Me",
+      "description": "View profile",
+      "url": "/profile",
+      "icons": [
+        {
+          "src": "/icon/onms-icon-128.png",
+          "sizes": "128x128"
+        }
+      ]
+    }
+  ],
+  "related_applications": [],
+  "prefer_related_applications": false
+}
